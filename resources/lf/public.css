@@ -1,0 +1,87 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body{font-family:"微软雅黑",Arial, Helvetica, sans-serif; font-size: 12px;font-style: normal; line-height: 22px; font-weight: normal; font-variant: normal; color:#222;}
+body,ul,dl,dd,dt,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,img,td,div,input{margin:0;padding:0;}
+table{ border-collapse:collapse; border-spacing:0;}
+a{ outline-style:none; color:#818181; text-decoration:none; border:0px;}
+a:hover{ text-decoration:none; color:#0f71af;}
+input,select,textarea{font-size:12px; font-family:Arial, Helvetica, sans-serif; color:#666}
+img{border:0;}
+li{list-style-type:none; vertical-align:0}
+.hidden{display:none;}
+.fleft{float:left}
+.fright{float:right}
+.fleft_impt{ float:left!important;}
+.pr{ position:relative;}
+.pa{ position:absolute}
+.clear{ clear:both; height:0; line-height:0; overflow:hidden; font-size:0;}
+textarea{resize: none;}
+.f12{ font-size:12px;}
+.f14{ font-size:14px;}
+.f16{ font-size:16px;}
+.f18{ font-size:18px;}
+.f22{ font-size:22px;}
+.f24{ font-size:24px;}
+.red{ color:#c31423}
+.lan{color:#0f71af;}
+.fbold{ font-weight:700}
+.bor0{ border:0px!important;}
+.mar0{ margin:0px!important;}
+.mar_r0{ margin-right:0px!important;}
+.bor_l0{ border-left:0px!important;}
+.bor_r0{ border-right:0px!important;}
+.pdaimng0{ padding-right:0px!important;}
+.ovhide{}
+/*new*/
+.w1002{ width:1002px; margin:0 auto}
+/* 焦点图 */
+.head{ width:100%; min-width:1002px; margin:0 auto; overflow:hidden;}
+.top{ background:#fff; height:70px; padding:4px 0px 7px; position:absolute; left:0px; top:0px; width:100%;}
+.banner{text-align:center; overflow:hidden; background:url(/resources/lf/2014530184531993150.jpg) no-repeat center top;
+height:auto!important;  
+height:650px;  
+min-height:650px;}
+.banner img{ width:100%;}
+.banner2{ width:100%; height:430px; text-align:center; overflow:hidden}
+.banner2 img{ width:1440px; height:430px; }
+.logo{ background:url(/resources/lf/logo.png) no-repeat; width:286px; height:58px; margin-top:6px; float:left;}
+.serach{ float:right; border:1px solid #333; padding:0 5px; border-radius:4px; behavior:url(/resources/lf/PIE.htc); position:relative; height:20px;}
+.serach input{ float:left; width:120px; height:20px; border:0px; line-height:20px; color:#333; padding-left:5px; background:none;}
+.serach a{ float:left; background:url(/resources/lf/serach.png) no-repeat center center; height:20px; width:20px;}
+.language{ float:right; color:#333; margin-right:15px;}
+.language a{ color:#333;}
+.language a:hover{ text-decoration:underline;}
+.nav{ float:right; margin-top:28px;}
+.nav li{ float:left; border-right:1px solid #333; height:16px; line-height:16px; font-size:14px; position:relative; *line-height:20px;}
+.nav li a{  padding:0 30px; color:#333; font-size:14px;}
+.nav li a:hover{ color:#333;}
+.two_n{ position:absolute; line-height:40px; top:12px; padding-top:23px;}
+.palfrt{ left:0px;}
+.parigh{ right:0px;}
+.two_n dd{ float:left; white-space:nowrap;}
+.two_n dd a{ padding:0px;padding-left:10px; padding-right:10px; color:#333333; font-size:13px; border:0px; }
+.two_n dd a:hover{ color:#0c2d74;}
+.bgwht{ width:100%; height:40px; position:absolute; left:0px; top:80px; background:url(/resources/lf/white_bg.png)}
+.s_news{ position:absolute; width:660px; left:50%; margin-left:-330px; top:40%;}
+.n_text{ width:250px; color:#000; font-weight:700; margin-top:15px;}
+.read_m{ background:url(/resources/lf/read_more.png) no-repeat; display:block; width:119px; height:24px; margin-top:5px;}
+.main{ padding:40px 30px; margin-top:-17%; }
+.fooler{ background:#0089d3; padding:35px 0px;}
+.foot{ width:1002px; text-align:center; margin:0 auto; color:#fff;}
+.foot span{ margin:0 25px;}
+.foot a{ margin:0 25px; color:#ded1ac;}
+.foot a:hover{ color:#c31423}
+.fooler .fleft{ margin-left:160px;}
+/****/
+.mosueon_tab{margin:20px auto; height:334px; overflow:hidden; width:96%;  position:relative;background:url(/resources/lf/bg_hs.png) left top repeat-x; padding:25px 0px 0px;}
+.mosueon_tab ul{ width:1920px;}
+.mosueon_tab li{ float:left; width:334px; height:334px; position:relative; overflow:hidden; cursor:pointer; background:#000;}
+.mosueon_tab li img{ width:334px; height:334px;}
+.zhaoc{ position:absolute; right:0px; top:0px; width:334px; height:334px;  }
+.bglan{background:url(/resources/lf/backlan.png);}
+.zhaoc h1{ font-size:22px; color:#fff; line-height:38px; position:relative;}
+.txt{ width:300px; margin:0 auto; color:#fff;}
+.txt p{ font-size:14px;position:relative; display:block;}
+.litile{ display:none;word-wrap:break-word;}
+.txt span{ color:#fff;}
+.chaol a{ color:#737070;}
